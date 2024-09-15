@@ -1,11 +1,17 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Program1 {
 
     public static void main(String[] args) {
-    
-        System.out.println("Hello world! from Program 1");
-
+    Scanner s=new Scanner(System.in);
+        System.out.println("enter number");
+        int n=s.nextInt();
+        if (n%2==0){
+            System.out.println("even");
+        }    
+        else{
+            System.out.println("odd");
+        }
   }
 
   // @Test
