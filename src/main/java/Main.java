@@ -7,7 +7,7 @@ public class Main {
     System.out.println("Hello world! From Mains");
 
     // Create an instance of Program1
-    Program1 program = new Program1();
+    weightlifting program = new weightlifting();
     // Call the main method of Program1
     program.main(args); 
   }
